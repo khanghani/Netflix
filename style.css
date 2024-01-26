@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: black;
+}
+.mainBox{
+    background-image: url(net.jpg);
+    background-position: center;
+    height: 100svh;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sign-up{
+    padding: 0px 20px;
+    height: 25px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}.sign-up:hover{
+    background-color: rgb(191, 0, 0);
+    cursor: pointer;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    color: white;
+    transform: translateY(70%);
+    font-size: 25px;
+    line-height: 50px;
+}
+.textField{
+    padding: 20px 20px;
+    width: 20rem;
+    /* height: 50px; */
+    background-color: rgba(0, 0, 0, 0.436);
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 20px;
+    color: white;
+}
+.btn1{
+    padding: 20px 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn1:hover{
+    background-color: rgb(191, 0, 0);
+    cursor: pointer;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    padding-left: 50px;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.frequent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    line-height: 80px;
+}
+.btns{
+    padding: 25px 50px;
+    width: 80rem;
+    background-color: rgb(89, 89, 89);
+    border: none;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+}
+.btns:hover{
+    background-color: rgb(70, 70, 70);
+    cursor: pointer;
+}
